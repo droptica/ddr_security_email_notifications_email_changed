@@ -6,7 +6,7 @@
     "license": "GPL-2.0-or-later",
     "require": {
         "drupal/core": ">=10.3",
-        "drupal/eca": "^2.0",
+        "drupal/eca": "^1.1",
         "drupal/eca_cm":"^1.0",
         "drupal/token": "^1.15"
     },
