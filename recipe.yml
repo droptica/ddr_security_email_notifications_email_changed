@@ -1,0 +1,11 @@
+name: 'DDR Security Email Notifications - Email changed'
+type: 'Droptica’s Drupal Recipes'
+description: "Automatic notifications and logging of user email changes"
+
+install:
+  - eca_content
+  - eca_ui
+  - eca_cm
+  - eca_log
+  - token
+  - user
