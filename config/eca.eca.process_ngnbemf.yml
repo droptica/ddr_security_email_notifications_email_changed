@@ -32,10 +32,10 @@ gateways: {  }
 actions:
   Activity_19yhlnk:
     plugin: action_send_email_action
-    label: 'Send email to admin'
+    label: 'Send email to user'
     configuration:
       replace_tokens: false
-      recipient: '[user:original:mail]'
+      recipient: '[user:original:mail], [user:mail]'
       subject: 'E-mail changed'
       message: 'Your email has been changed from [user:original:mail] to [user:mail] by [current-user:account-name]'
     successors:
