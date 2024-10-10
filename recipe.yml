@@ -5,7 +5,8 @@ description: "Automatic notifications and logging of user email changes"
 install:
   - eca_content
   - eca_ui
-  - eca_cm
+  - bpmn_io
+  - eca_modeller_bpmn
   - eca_log
   - token
   - user
